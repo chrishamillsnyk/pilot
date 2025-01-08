@@ -1,4 +1,4 @@
-FROM mariadb:10.6.2
+FROM mariadb:10.11-ubi
 
 RUN mkdir /usr/src/goof
 RUN mkdir /tmp/extracted_files
